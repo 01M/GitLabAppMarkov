@@ -13,7 +13,7 @@ namespace GitLabAppMarkov
             Console.Write("Введите значение параметра X: ");
             string s = Console.ReadLine();
             double x = double.Parse(s);
-            double F = 2 * Math.Cos(x);
+            double F = Math.Sin(x) + Math.Cos(x);
             Console.WriteLine($"Значение F = {F}.");
             Console.ReadKey();
             return;
